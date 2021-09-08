@@ -1,0 +1,65 @@
+.card-box .card-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 170px;
+  width: 170px;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: rgb(28, 28, 30);
+  text-decoration: none;
+}
+.card-box .card-links:hover{
+  background-color: rgb(28, 28, 30);
+}
+@media(max-width: 414px) {
+  .card-box .card-links{
+    width: 150px;
+  }
+}
+.card-box .img-box {
+  width: 100px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-box span {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  border: 1px solid rgb(50, 215, 75);
+  color: rgb(50, 215, 75);
+  border-radius: 13px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  padding: 0 12px;
+  text-align: center;
+  width: 65px;
+}
+.card-area {
+  margin: 8px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-area h3 {
+  box-sizing: border-box;
+  margin: 8px 0px 0px;
+  font-family: Montserrat, system-ui, sans-serif;
+  line-height: 1.32;
+  font-weight: 500;
+  font-size: 19px;
+  color: rgb(255, 255, 255);
+}
+.card-container {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, 155px);
+  margin-bottom: 140px;
+}

@@ -1,0 +1,19 @@
+.job-heading{
+    margin-bottom: 40px;
+}
+.job-content{
+    margin-top: 100px;
+}
+.job-content a{
+   line-height: 3;
+   font-size: 18px;
+   color: white;
+   font-weight: bold;
+   white-space: 1;
+}
+.job-content a:hover{
+    text-decoration: underline;
+}
+.job-content div{
+    margin-top: 20px;
+}

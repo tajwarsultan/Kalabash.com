@@ -1,0 +1,78 @@
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+.mobile-img {
+  height: 80vh;
+}
+
+.download-links {
+  margin-top: 10px;
+}
+
+.download-links a {
+  padding: 5px;
+  opacity: 0.6;
+  color: white;
+  font-size: 12px;
+  font-family: system-ui;
+  padding-left: 11px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.earn-container {
+  display: flex;
+  justify-content: space-between;
+}
+.paid {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.wallet {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.wallet-headig {
+  width: 95%;
+}
+
+.video {
+  height: 75vh;
+}
+.cash {
+  margin-top: 80px;
+}
+@media (max-width: 1000px) {
+  .home-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 700px) {
+  .home-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 600px) {
+  .home-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,48 @@
+.menu-container{
+    background-color: black;
+}
+
+.ant-menu-inline {
+  border: none;
+}
+.ant-menu-sub.ant-menu-inline {
+  background-color: black ;
+  color: rgba(235, 235, 245, 0.6);
+  font-size: 16px;
+}
+.ant-menu-item a {
+  font-size: 18px;
+  letter-spacing: 0.05em;
+}
+
+.ant-menu-submenu-title {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+.ant-menu-submenu-arrow {
+  color: white;
+}
+
+.ant-menu-submenu-title:hover {
+  color: white;
+}
+.faq-para{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.contact-heading{
+  margin-left: 20px;
+}
+.contact{
+  display: flex;
+  align-items: center;
+}
+.contact-icon{
+  margin-bottom: 6px;
+  margin-left: 8px;
+}
+.drop a{
+  color:rgba(235, 235, 245, 0.6);;
+}
